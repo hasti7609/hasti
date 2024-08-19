@@ -25,5 +25,7 @@ void main() {
   myMapData["City"] = "Surat";
   //print(myMapData.keys);
   //print(myMapData.values);
-  print(myMapData.isNotEmpty);
+  //print(myMapData.isNotEmpty);
+  myMapData.remove("City");
+  print(myMapData);
 }
