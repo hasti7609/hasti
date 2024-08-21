@@ -22,10 +22,10 @@ void main() {
   // print(bothData);
   // print(data);
   Map<String, dynamic> myMapData = {"Id": 1, "Name": "Hasti"};
-  //myMapData["City"] = "Surat";
+  myMapData["City"] = "Surat";
   //print(myMapData.keys);
   //print(myMapData.values);
-  //print(myMapData.isNotEmpty);
+  print(myMapData.isNotEmpty);
   // myMapData.remove("City");
   Map<String, dynamic> mapData = {"College": "DYPatil", "Roll No": 234};
   myMapData.addAll(mapData);
